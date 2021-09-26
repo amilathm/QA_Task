@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 2, Time elapsed: 19.78 s <<< FAILURE! - in TestSuite
+crudTest.createTest.CreateComputer[MacBook Pro, 1995-03-23](1)  Time elapsed: 4.056 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because the return value of "pageObject.mainPage.addComputer()" is null
+	at crudTest.createTest.CreateComputer(createTest.java:34)
+
+crudTest.updateTest.UpdateComputer[MacBook, 10 Jan 2006, MacBook Air older, 2021-09-26](1)  Time elapsed: 0.018 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=94.0.4606.61)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Amilaths-MacBook-Pro.local', ip: '2003:ec:3722:4f12:e496:def1:58b4:75ba%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '11.5.2', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: /var/folders/1s/klpym2k53j1...}, goog:chromeOptions: {debuggerAddress: localhost:50609}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 28ad746f78b635dd524c7613db3ceadf
+*** Element info: {Using=xpath, value=//input[@id='searchbox']}
+	at crudTest.updateTest.UpdateComputer(updateTest.java:37)
+
+crudTest.createTest.closeBrowser  Time elapsed: 0.022 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=94.0.4606.61)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Amilaths-MacBook-Pro.local', ip: '2003:ec:3722:4f12:e496:def1:58b4:75ba%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '11.5.2', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: /var/folders/1s/klpym2k53j1...}, goog:chromeOptions: {debuggerAddress: localhost:50553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 204da5f538ec5a3615a2b8e31ae05c65
+	at crudTest.createTest.closeBrowser(createTest.java:67)
+

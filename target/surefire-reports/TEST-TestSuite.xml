@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="19.78" tests="5" errors="0" skipped="2" failures="3">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="//Users//amilathmuhammed//Documents//selenium//chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/amilathmuhammed/Documents/selenium/TA_Task/target/test-classes:/Users/amilathmuhammed/Documents/selenium/TA_Task/target/classes:/Users/amilathmuhammed/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/Users/amilathmuhammed/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/Users/amilathmuhammed/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/Users/amilathmuhammed/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/Users/amilathmuhammed/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/Users/amilathmuhammed/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/Users/amilathmuhammed/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/Users/amilathmuhammed/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/Users/amilathmuhammed/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/Users/amilathmuhammed/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/Users/amilathmuhammed/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/amilathmuhammed/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/amilathmuhammed/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/amilathmuhammed/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/amilathmuhammed/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/amilathmuhammed/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/amilathmuhammed/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/amilathmuhammed/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/amilathmuhammed/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/amilathmuhammed/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/amilathmuhammed/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/amilathmuhammed/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/amilathmuhammed/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/amilathmuhammed/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/amilathmuhammed/.m2/repository/org/testng/testng/6.8/testng-6.8.jar:/Users/amilathmuhammed/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/amilathmuhammed/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/amilathmuhammed/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/amilathmuhammed/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Users/amilathmuhammed/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/Users/amilathmuhammed/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:/Users/amilathmuhammed/.m2/repository/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar:/Users/amilathmuhammed/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="DE"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/16.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/amilathmuhammed/Documents/selenium/TA_Task/target/surefire/surefirebooter7660381454899808096.jar /Users/amilathmuhammed/Documents/selenium/TA_Task/target/surefire 2021-09-26T18-29-04_634-jvmRun1 surefire18092775130055495912tmp surefire_015228037878908129994tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/amilathmuhammed/Documents/selenium/TA_Task/target/test-classes:/Users/amilathmuhammed/Documents/selenium/TA_Task/target/classes:/Users/amilathmuhammed/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/Users/amilathmuhammed/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/Users/amilathmuhammed/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/Users/amilathmuhammed/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/Users/amilathmuhammed/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/Users/amilathmuhammed/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/Users/amilathmuhammed/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/Users/amilathmuhammed/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/Users/amilathmuhammed/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/Users/amilathmuhammed/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/Users/amilathmuhammed/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/amilathmuhammed/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/amilathmuhammed/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/amilathmuhammed/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/amilathmuhammed/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/amilathmuhammed/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/amilathmuhammed/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/amilathmuhammed/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/amilathmuhammed/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/amilathmuhammed/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/amilathmuhammed/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/amilathmuhammed/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/amilathmuhammed/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/amilathmuhammed/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/amilathmuhammed/.m2/repository/org/testng/testng/6.8/testng-6.8.jar:/Users/amilathmuhammed/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/amilathmuhammed/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/amilathmuhammed/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/amilathmuhammed/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Users/amilathmuhammed/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/Users/amilathmuhammed/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:/Users/amilathmuhammed/.m2/repository/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar:/Users/amilathmuhammed/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/amilathmuhammed"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-09-14"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/16.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/amilathmuhammed/Documents/selenium/TA_Task"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/amilathmuhammed/Documents/selenium/TA_Task/target/surefire/surefirebooter7660381454899808096.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17+0"/>
+    <property name="user.name" value="amilathmuhammed"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.5.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/amilathmuhammed/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/1s/klpym2k53j17kmqvwrw153_m0000gn/T/"/>
+    <property name="java.version" value="17"/>
+    <property name="user.dir" value="/Users/amilathmuhammed/Documents/selenium/TA_Task"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/amilathmuhammed/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="17+0"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="CreateComputer[MacBook Pro, 1995-03-23](1)" classname="crudTest.createTest" time="4.056">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.WebElement.click()&quot; because the return value of &quot;pageObject.mainPage.addComputer()&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because the return value of "pageObject.mainPage.addComputer()" is null
+	at crudTest.createTest.CreateComputer(createTest.java:34)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 23911
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2021 6:29:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN No appenders could be found for logger (crudTest.createTest).
+log4j:WARN Please initialize the log4j system properly.
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 19045
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2021 6:29:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 23009
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 26, 2021 6:29:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="closeBrowser" classname="crudTest.createTest" time="0.022">
+    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=94.0.4606.61)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;Amilaths-MacBook-Pro.local&apos;, ip: &apos;2003:ec:3722:4f12:e496:def1:58b4:75ba%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;11.5.2&apos;, java.version: &apos;17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: /var/folders/1s/klpym2k53j1...}, goog:chromeOptions: {debuggerAddress: localhost:50553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 204da5f538ec5a3615a2b8e31ae05c65" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=94.0.4606.61)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Amilaths-MacBook-Pro.local', ip: '2003:ec:3722:4f12:e496:def1:58b4:75ba%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '11.5.2', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: /var/folders/1s/klpym2k53j1...}, goog:chromeOptions: {debuggerAddress: localhost:50553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 204da5f538ec5a3615a2b8e31ae05c65
+	at crudTest.createTest.closeBrowser(createTest.java:67)
+]]></failure>
+  </testcase>
+  <testcase name="closeBrowser" classname="crudTest.createTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="closeBrowser" classname="crudTest.createTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="UpdateComputer[MacBook, 10 Jan 2006, MacBook Air older, 2021-09-26](1)" classname="crudTest.updateTest" time="0.018">
+    <failure message="no such window: window was already closed&#10;  (Session info: chrome=94.0.4606.61)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;Amilaths-MacBook-Pro.local&apos;, ip: &apos;2003:ec:3722:4f12:e496:def1:58b4:75ba%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;11.5.2&apos;, java.version: &apos;17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: /var/folders/1s/klpym2k53j1...}, goog:chromeOptions: {debuggerAddress: localhost:50609}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 28ad746f78b635dd524c7613db3ceadf&#10;*** Element info: {Using=xpath, value=//input[@id=&apos;searchbox&apos;]}" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=94.0.4606.61)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Amilaths-MacBook-Pro.local', ip: '2003:ec:3722:4f12:e496:def1:58b4:75ba%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '11.5.2', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: /var/folders/1s/klpym2k53j1...}, goog:chromeOptions: {debuggerAddress: localhost:50609}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 28ad746f78b635dd524c7613db3ceadf
+*** Element info: {Using=xpath, value=//input[@id='searchbox']}
+	at crudTest.updateTest.UpdateComputer(updateTest.java:37)
+]]></failure>
+  </testcase>
+</testsuite>
