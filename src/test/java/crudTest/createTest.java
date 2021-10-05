@@ -1,13 +1,12 @@
 package crudTest;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import pageObject.addNewComputer;
+import pageObject.base;
 import pageObject.mainPage;
-import resources.base;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -16,6 +15,8 @@ import java.io.IOException;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
+//FIXME Please follow the Java name conventions for class, constants packages and so (eg, CreateTest)
+//ToDo Add names that means more eg, instead of base "BaseTest"
 public class createTest extends base {
 
     public static Logger log =LogManager.getLogger(createTest.class.getName());
@@ -66,6 +67,8 @@ public class createTest extends base {
 
 
     }
+
+    //FIXME what about if it is in the parent class?
     @AfterTest
     public void closeBrowser(){
         driver.close();
