@@ -1,6 +1,5 @@
 package crudTest;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -10,11 +9,10 @@ import org.testng.annotations.Test;
 import pageObject.editPage;
 import pageObject.filterPage;
 import pageObject.mainPage;
-import resources.base;
+import pageObject.base;
 
 import java.io.IOException;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
+
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
@@ -29,6 +27,7 @@ public class updateTest extends base {
         driver.get(prop.getProperty("url"));
         log.info("Page loaded");
     }
+    //FIXME pls see the name conventions for method
     @Test(dataProvider = "getData")
     public void UpdateComputer(String Name, String Date, String UpdatedName, String DiscountinuedDate) throws IOException {
 
@@ -49,6 +48,7 @@ for(int j=0;j<b;j++) {
     int search = fp.getsize().size();
 
     for (int i = 0; i < search; i++) {
+        //FIXME Please avoid commented lines - was this one used for debug purposes right ?
         //System.out.println(driver.findElements(By.xpath("//table[@class='computers zebra-striped'] //tbody //tr //td")).get(i).getText().contains(introducedDate));
 
         if (fp.getsize().get(i).getText().contains(Date)) {
@@ -74,7 +74,7 @@ for(int j=0;j<b;j++) {
 
     }
 
-
+//FIXME what about use a name more meaningful like getComputerDataForTesting ? - is it possible instead of hardcode using handom data?
         @DataProvider
         public Object[][] getData(){
 
@@ -84,7 +84,7 @@ for(int j=0;j<b;j++) {
             data[0][1] = "10 Jan 2006";
             data[0][2] = "MacBook Air older";
             data[0][3] = today;
-
+//FIXME why do use these amount of lines before and after the block?
 
         return data;
     }
